@@ -13,3 +13,4 @@ urlpatterns = [
     path("books/<int:book_id>/review/<int:review_id>/delete/", DeleteReviewView.as_view(), name="delete-review"),
 
 ]
+# aliklar bolsin
