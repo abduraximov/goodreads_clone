@@ -107,3 +107,5 @@ class DeleteReviewView(LoginRequiredMixin, View):
         messages.success(request, "You have successfully deleted this review")
 
         return redirect(reverse("books:detail", kwargs={"id": book.id}))
+
+# salomlar bolsin
